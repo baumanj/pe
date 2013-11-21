@@ -16,7 +16,7 @@ end
 
  #make this work
 prime_array = []
-factor_array.select do |num|
+factor_array.each do |num|
      (2...Math.sqrt(num)).each do |a|
      if num % a == 0
       prime_array.push(num)
